@@ -1,3 +1,1 @@
-# OOP Fundamentals
-
-- Object Literals ( branch - 2)
+# Object Literals Branch
