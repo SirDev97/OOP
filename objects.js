@@ -22,7 +22,20 @@ class User {
   }
 }
 
+class Admin extends User {
+  deleteUser(user) {
+    users = users.filter((u) => {
+      return u.email != user.email;
+    });
+  }
+}
+
 let userOne = new User("mario@mario.com", "mario");
 let userTwo = new User("lugi@mansion.com", "luigi");
+let admin = new Admin("admin1@mail.com", "admin1");
 
-userOne.login().updateScore().updateScore().logout();
+let users = [userOne, userTwo, admin];
+
+admin.deleteUser(userTwo);
+
+console.log(users);

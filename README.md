@@ -1,1 +1,1 @@
-# Methods Chaining Branch
+# Class Inheritance Branch
