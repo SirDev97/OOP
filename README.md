@@ -1,7 +1,6 @@
-# OOP Fundamentals
+# Class Constructors Branch
 
-- Object Literals ( branch - 2 )
-
-- Updating Properties ( branch - 3 )
-
-- JavaScript Classes ( branch - 4 )
+- the 'new' keyword:
+  - creates a new empty object {}
+  - sets the value of 'this' to be the new empty object
+  - calls the constructor method
